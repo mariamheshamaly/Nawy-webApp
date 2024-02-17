@@ -7,7 +7,7 @@
 This will start the backend server.
 
 `cd apartment-listing-frontend`<br>
-`npm i`
+`npm i` <br>
 `npm run dev`
 
 This will start the frontend app server in development mode.<br>
