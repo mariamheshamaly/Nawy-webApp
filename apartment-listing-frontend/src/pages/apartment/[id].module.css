@@ -1,0 +1,120 @@
+.pageBody {
+  position: fixed; /* or absolute */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Ensure it's behind other content */
+  /* Add background properties here */
+  background-image: url('https://github.com/mariamheshamaly/Uploading-Image/blob/main/Screenshot%20(68).png?raw=true');
+  background-size: cover;
+
+  /* Add other styles as needed */
+}
+.container {
+  display: flex; /* Use flexbox to arrange items horizontally */
+  position: relative;
+}
+.card {
+  position: relative;
+  width: 35%; /* Adjust the card width as needed */
+  margin-top: 5%;
+  margin-left: 2%;
+ 
+}
+
+.imagecontainer {
+  width: 100%;
+  height: 450px;
+  
+}
+
+.imagecontainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 4%;
+  
+}
+
+.prev,
+.next {
+  position: absolute; 
+  top: 50%; 
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  color:white;
+  font-size: 40px;
+  cursor: pointer;
+
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+ .p {
+  font-size: larger;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 15px 0; 
+  padding-left: 20px; 
+  margin-bottom: 30px;
+  
+  
+}
+.logo {
+  width: 8%; 
+  position: absolute;
+  top: -6%;
+  left: 2%;
+  
+  
+}
+.tablecontainer {
+  display: table;
+  width: 50%; /* Adjust width as needed */
+  margin: auto; /* Center the table horizontally */
+  margin-top: 1%;
+  table-layout: fixed;
+  
+}
+
+.row {
+  display: table-row;
+}
+
+.column {
+  display: table-cell;
+  padding: 10px;
+  border: 1px solid #716f6fc9;
+  width: 50%; /* Set each column to have equal width */
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+  border-radius: 7%;
+}
+
+/* Apply styles for even rows */
+.row:nth-child(even) .column {
+  background-color:rgba(245, 236, 224, 0.701);
+}
+
+/* Apply styles for odd rows */
+.row:nth-child(odd) .column {
+  background-color: rgba(255, 255, 255, 0.436);
+}
+
+.tablecontainer h1 {
+  text-align: center;
+  font-weight: bold;
+  white-space: nowrap;
+  margin-left: 65%;
+  
+}
+.details{
+  font-weight: bold; 
+  font-size: larger;
+}

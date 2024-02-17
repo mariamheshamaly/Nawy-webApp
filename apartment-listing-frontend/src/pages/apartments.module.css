@@ -1,0 +1,65 @@
+.container {
+   width: 100%;
+   margin-top: 50px;
+  }
+
+.title {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  padding-bottom: 30px;
+  padding-top: 40px;
+  color: #100e0b;
+  
+}
+.apartmentContainer {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-wrap: wrap; /* Ensure items wrap to next row */
+    justify-content: space-between; /* Distribute items evenly along the row */
+    
+  }
+  
+  .apartmentCard {
+    width: calc((100% - 100px) / 3); /* Adjust the width as needed */
+    margin-bottom: 20px;
+    padding: 3px;
+    border-radius: 8px;
+    margin-top: 40px;
+    
+    
+    
+    
+  }
+  .apartmentCard img {
+    width: 100%; /* Ensure image does not exceed the width of its parent container */
+    height: 300px;
+    max-height: 300px;
+    border-radius: 18px;
+   
+  }
+  .mybutton {
+    background: linear-gradient(45deg, #bfb6a1, #a3967e); 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 35px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mybutton:hover {
+    background: linear-gradient(45deg, #cb9c56, #bd7235);
+    transform: translateY(-2px);
+}
+.logo {
+  width: 150px; /* Adjust the width of your logo */
+  height: auto; /* Maintain aspect ratio */
+  position: absolute;
+  top: -40px; /* Adjust as needed */
+  left: 20px; /* Adjust as needed */
+  
+}
