@@ -12,3 +12,7 @@ This will start the backend server.
 
 This will start the frontend app server in development mode.<br>
 Open [http://localhost:3000/apartments](http://localhost:3000/apartments) to view the Apartment Listing webpage.
+
+These are links to the screenshots of this webApp. <br>
+https://github.com/mariamheshamaly/Uploading-Image/blob/main/Screenshot%20(69).png?raw=true  <br>
+https://github.com/mariamheshamaly/Uploading-Image/blob/main/Screenshot%20(70).png?raw=true 
